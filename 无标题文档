@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	*{
+		padding: 0;
+		margin:0;
+	}
+	.content{
+		width: 978px;
+		height:532px;
+		/*background: yellow;*/
+		margin: 0 auto;
+	}
+	.content .list{
+		width: 200px;
+		height:531px;
+		/*background: red;*/
+		float: left;
+		border:1px solid #eee;
+	}
+	.content .list ul{
+		margin:0;
+		padding: 0;
+		list-style: none;
+	}
+	.content .list ul li{
+		width: 200px;
+		line-height: 37px;
+		margin: 0 auto;
+		text-align: center;
+		/*background: blue;*/
+		border-bottom: 1px solid #eee;
+	}
+	.content .list ul .title{
+		width: 200px;
+		line-height: 80px;
+		margin: 0 auto;
+		background: #f0f0f0;
+		font-size: 22px;
+		color: #78A22F;
+	}
+	.content .list ul li a{
+		text-decoration: none;
+		color: #666;
+		font-size: 14px;
+	}
+	.content .list ul li a:hover{
+		color: #000;
+		font-weight: bolder;
+	}
+	.content .main{
+		width: 699px;
+		height:531px;
+		/*background: blue;*/
+		float: right;
+		border:1px solid #eee;
+		margin-right: 39px;
+	}
+	.content .main .title{
+		width: 699px;
+		height: 20px;
+		border-bottom: 2px solid #78a22f;
+		color: #666;
+		font-size: 12px;
+		text-align: right;
+		padding-top: 50px;
+	}
+	.content .main ul{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	.content .main ul li{
+		width: 699px;
+		line-height: 33px;
+		border-bottom: 1px dashed #ddd;
+	}
+	.content .main ul li a{
+		color: #666;
+		font-size: 14px;
+		text-decoration: none;
+	}
+	.content .main ul li span{
+		color: #C30;
+		font-size: 12px;
+		float: right;
+	}
+	/**/
+	.footer{
+		width: 978px;
+		height: 51px;
+		margin:0 auto;
+		/*background: red;*/
+	}
+	.footer table{
+		/*background: blue;*/
+		float: left;
+		margin-left: 14px;
+	}
+	.footer  table tr td a{
+		text-decoration: none;
+		display: block;
+		width: 101px;
+		line-height: 51px;
+		font-size: 12px;
+		color: #666;
+	}
+	.footer  table tr .left {
+		font-size: 12px;
+		color: #666;
+		width: 343px;
+		height: 51px;
+	}
+	.footer  table tr .right{
+		font-size: 12px;
+		color: #666;
+		height: 51px;
+		width: 345px;
+		text-align: right;
+	}
+	.bottom{
+		height: 38px;
+		background: #d3d1d2;
+	}
+	</style>
+</head>
+<body>
+<!-- 主体部分 -->
+<div class="content">
+	<div class="list">
+	<ul>
+		<li class="title">新 闻 中 心</li>
+		<li><a href="">	新闻资讯</a>
+		<li><a href="">	行业新闻</a>
+		<li><a href="">	媒体摘要</a>
+		<li><a href="">	家装秘籍</a>
+	</ul>
+	</div>
+	<div class="main">
+		<div class="title">首页 > 新闻中心</div>
+		<ul>
+			<li>
+			<a href="">·看完日本人眼中的理想马桶 你会挑了吗？</a><span>2017-04-17</span>
+			</li>
+			<li>
+			<a href="">·再也不怕噪音了！教你挑选称心隔音门</a><span>2017-04-17</span>
+			</li>
+			<li>
+			<a href="">·【家居风水】清明节家居风水转运秘籍</a><span>2017-04-17</span>
+			</li>
+			<li>
+			<a href="">·【五方家居】我的权益我做主—六大服务，购物无忧!</a><span>2017-04-17</span>
+			</li>
+			<li>
+			<a href="">·三八节来了，不同的花送给不同的她，你送对了么？</a><span>2017-04-17</span>
+			</li>
+		</ul>
+	</div>
+</div>
+<!--主体部分  -->
+<!-- 页脚 -->
+<div class="footer">
+	<table border="0" width="948px" height="51px" cellpadding="0" cellspacing="0" >
+		<tr>
+			<td><a href="">投诉与建议</a></td>
+			<td><a href=""> 友情链接</a></td>
+			<td><a href=""> 企业邮箱</a></td>
+			<td  class="left">COPYRIGHT©2014 WUFANGHOME CO.LTD</td>
+			<td  class="right">网站备案：粤ICP备10211180号-1</td>
+		</tr>
+	</table>
+</div>
+<!-- 页脚 -->
+<!-- 底部 -->
+<div class="bottom">
+
+</div>
+<!-- 底部 -->
+</body>
+</html>
